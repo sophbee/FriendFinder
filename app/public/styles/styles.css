@@ -1,0 +1,18 @@
+body {
+    background-image: url("../styles/images/pattern.png");
+    font-family: 'Oxygen', sans-serif;
+}
+
+#title {
+    font-family: 'Pacifico', cursive;
+    font-size: 75px;
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: url("../styles/images/gradient.png");
+}
+
+#titlesub {
+    text-align: center;
+}

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Damion|Oxygen|Pacifico" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <hr>
+
+        <h1 id="title">
+            <strong>Survey Questions</strong>
+        </h1>
+
+        <hr>
+
+        <h3>
+            <strong>About You</strong>
+        </h3>
+
+        <form>
+            <div class="form-group">
+                <label for="name">Name (Required)</label>
+                <input type="text" class="form-control" id="name" aria-describedby="entername" placeholder="Enter name" required>
+            </div>
+            <div class="form-group">
+                <label for="photo">Link to Photo Image (Required)</label>
+                <input type="text" class="form-control" id="photo" aria-describedby="linkphoto" placeholder="Link to Photo Image" required>
+            </div>
+        </form>
+
+        <hr>
+
+        <h4>
+            <strong>Question 1</strong>
+        </h4>
+        <h5>I prefer to communicate with others in a large group.</h5>
+
+        <div class="input-group mb-3">
+            <select class="custom-select" id="q1">
+                <option selected>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <h4>
+            <strong>Question 2</strong>
+        </h4>
+        <h5>I prefer to work alone.</h5>
+
+        <div class="input-group mb-3">
+            <select class="custom-select" id="q2">
+                <option selected>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <h4>
+            <strong>Question 3</strong>
+        </h4>
+        <h5>I seek out feedback from others, even if I know it may be negative.</h5>
+
+        <div class="input-group mb-3">
+            <select class="custom-select" id="q3">
+                <option selected>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <h4>
+            <strong>Question 4</strong>
+        </h4>
+        <h5>I am more convinced by a logical explanation rather than an emotional appeal.</h5>
+
+        <div class="input-group mb-3">
+            <select class="custom-select" id="q4">
+                <option selected>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <h4>
+            <strong>Question 5</strong>
+        </h4>
+        <h5>Uncertainty makes me anxious.</h5>
+
+        <div class="input-group mb-3">
+            <select class="custom-select" id="q5">
+                <option selected>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <h4>
+            <strong>Question 6</strong>
+        </h4>
+        <h5>Others would describe me as organized and methodical.</h5>
+
+        <div class="input-group mb-3">
+            <select class="custom-select" id="q6">
+                <option selected>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <h4>
+            <strong>Question 7</strong>
+        </h4>
+        <h5>I am adaptable.</h5>
+
+        <div class="input-group mb-3">
+            <select class="custom-select" id="q7">
+                <option selected>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <h4>
+            <strong>Question 8</strong>
+        </h4>
+        <h5>Others would describe me as easygoing and flexible.</h5>
+
+        <div class="input-group mb-3">
+            <select class="custom-select" id="q8">
+                <option selected>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <h4>
+            <strong>Question 9</strong>
+        </h4>
+        <h5>When someone has a problem, I start by offering advice rather than emotional support.</h5>
+
+        <div class="input-group mb-3">
+            <select class="custom-select" id="q9">
+                <option selected>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <h4>
+            <strong>Question 10</strong>
+        </h4>
+        <h5>I worry that others may view me as reserved and cold.</h5>
+
+        <div class="input-group mb-3">
+            <select class="custom-select" id="q10">
+                <option selected>Select an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <button type="button" class="btn btn-danger btn-lg btn-block" id="submit">Submit!</button>
+
+        <hr>
+
+    </div>
+
+    <div class="modal fade" id="match-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">And your match is... </h5>
+
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+
+                </div>
+
+                <div class="modal-body">
+                    <h5 id="bf-name"></h5>
+                    <img id="bf-photo" src="https://vignette.wikia.nocookie.net/mrmen/images/f/fe/Mr._Happy.png/revision/latest?cb=20170202192617" height="50" width="100">
+                </div>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <a href="/api/friends">API Friends List</a> |
+                <a href="https://github.com/sophbee/FriendFinder">GitHub Repo</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+<script type="text/javascript">
+    $("#submit").on("click", function (event) {
+        event.preventDefault();
+
+        // Grabbing all the values from responses above.
+        var name = $("#name").val().trim();
+        var photo = $("#photo").val().trim();
+        var q1 = $("#q1").val();
+        var q2 = $("#q2").val();
+        var q3 = $("#q3").val();
+        var q4 = $("#q4").val();
+        var q5 = $("#q5").val();
+        var q6 = $("#q6").val();
+        var q7 = $("#q7").val();
+        var q8 = $("#q8").val();
+        var q9 = $("#q9").val();
+        var q10 = $("#q10").val();
+
+        var newFriend = {
+            name: name,
+            photo: photo,
+            answers: [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10]
+        };
+
+        console.log(newFriend);
+
+        var currentURL = window.location.origin;
+
+
+        $.post(currentURL + "/api/friends", newFriend, function (data) {
+            $("#bf-name").text(data.name);
+            $("#bf-photo").attr("src", data.photo);
+            $("#match-modal").modal("show");
+        });
+
+    });
+</script>
+
+</html>
