@@ -13,7 +13,7 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../public/home.html"));
   });
 
-  app.get("/styles/styles.css", function(req, res) {
+  app.get("styles/styles.css", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/styles/styles.css"));
   });
 };
