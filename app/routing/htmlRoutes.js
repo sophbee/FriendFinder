@@ -14,6 +14,6 @@ module.exports = function(app) {
   });
 
   app.get("styles/styles.css", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/styles/styles.css"));
+    res.sendFile(path.join(__dirname, "/styles/styles.css"));
   });
 };
