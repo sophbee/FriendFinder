@@ -9,3 +9,5 @@ For this application, I used:
 - NPM packages: Express, Path, Body-Parser
 
 All dependencies are listed in package.json so users will need to install the listed NPM packages above. Also, the project is modularized so you will find that all of the routing scripts for both the API, which also holds the logic portion for matching users with the best person, and HTML directories are in one folder, the dummy data for app users are in the data folder, and finally, the public folder holds all of the HTML files.
+
+You can also find the working app here: https://friendfinderinrva.herokuapp.com/
