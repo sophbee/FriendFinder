@@ -14,7 +14,7 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../public/styles/styles.css"));
   });
 
-  app.use(express.static("public"));
+  app.use(express.static("app/public"));
 
   app.get("*", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/home.html"));
